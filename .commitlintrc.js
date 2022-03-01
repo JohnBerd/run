@@ -1,1 +1,1 @@
-module.exports = {extends: ['azot']}
+module.exports = { extends: ['azot'] }
