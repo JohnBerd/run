@@ -1,0 +1,6 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+npm -s run pretty
+npx --no-install -s commitlint --edit ""
+npm -s run lint
