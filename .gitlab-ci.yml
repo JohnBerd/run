@@ -1,0 +1,12 @@
+.shared:
+  image: node:lts-alpine
+
+  stages:
+    - quality
+
+  linter:
+    stage: quality
+    extends:
+      - .shared
+    script:
+      - npm run lint
