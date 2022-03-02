@@ -3,6 +3,7 @@
     "name": "run",
     "slug": "run",
     "version": "1.0.0",
+    "main": "ui/index.tsx",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
